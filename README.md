@@ -26,7 +26,7 @@
 分配一个固定大小的内存块。
 
 ```c
-void* malloc(size_t size);
+void* my_malloc(size_t size);
 ```
 
 - `size`: 要分配的内存块大小
@@ -37,7 +37,7 @@ void* malloc(size_t size);
 释放一个内存块。
 
 ```c
-void free(void* block);
+void my_free(void* block);
 ```
 
 - `block`: 要释放的内存块地址
